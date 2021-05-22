@@ -17,3 +17,6 @@ class TestLeap(unittest.TestCase):
 
     def test5(self):
         self.assertEqual(leap.is_leap(800), True)
+
+if __name__ == '__main__':
+    unittest.main()
